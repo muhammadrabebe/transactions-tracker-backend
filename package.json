@@ -1,0 +1,22 @@
+{
+  "name": "react-transactions-backend",
+  "version": "1.0.0",
+  "description": "transactions tracker backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "keywords": [
+    "rest",
+    "api"
+  ],
+  "author": "Muhammad Rabebe",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3",
+    "morgan": "^1.10.0"
+  }
+}
